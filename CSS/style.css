@@ -12,7 +12,7 @@ html{
 body{
 	width: 100%;
 	font-family: 'Open sans';
-	
+	background-color: #230075;
 }
 /*NAVBAR*/
 .nav{
@@ -28,10 +28,9 @@ body{
 	box-shadow: 0 5px 10px  rgba(0, 0, 0, .5);
 	border-color: 5px aqua;
 	z-index: 5;
-}
-
-.enlace {
- background-color: #230075;
+	color: aqua;
+	font-size: 30px;
+	padding: 0px, 20px;
 }
 
 .nav img{
@@ -56,7 +55,9 @@ body{
 	background-color: rgba(0, 0, 0, .4);
 	text-align: left;
 	display: none;
+	color:aliceblue;
 }
+
 .sombras{
 	display: block;
 	transition: .5s;
@@ -91,7 +92,7 @@ body{
 	padding: 1rem;
 }
 .enlace{
-	color: #000;
+	color: aqua;
 }
 .sombra ul li{
 	transition: .3s;
@@ -231,22 +232,30 @@ body{
 	height: auto;
 	overflow: hidden;
 	position: relative;
+	color: white;
+	background-color: #230075;
+}
+.h1{
+	color: aqua;
 }
 .sec2 .sliderInformacion{
 	display: flex;
 	width: 300%;
 	margin-left: -100%;
 }
-.sliderInformacion .info{
-	width: 100%;
-
-
+.sliderInformacion .info {
+	/* Existing styles */
+	width: 95%;
+	background-color: #230075;
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
-
-}
+    border-radius: 20px;
+	/* New style for border */
+	border: 1px solid aqua;
+  }
+  
 .info .h1{
 	width: 100%;
 	text-align: center;
@@ -275,8 +284,8 @@ body{
 .ubicacion{
 	width: 100%;
 	height: auto;
-	border-top: 2px solid #cbd0d8;
-	border-bottom: 2px solid #cbd0d8;
+	border-top: 2px solid aqua;
+	border-bottom: 2px solid aqua;
 	border-radius: 2rem;
 }
 #ubicacion{
@@ -381,12 +390,14 @@ body{
 	font-size: 1.5rem;
 	text-align: center;
 	padding-top: 1rem;
+	color: aqua;
 }
 .sedes .p{
 	width: 90%;
 	font-size: 1rem;
 	text-align: left;
 	padding-top: .5rem;	
+	color: white;
 }
 /*SECCION PARA LAS DISTRIBUCIONES EXCLUSIVAS*/
 .h3exclu{
@@ -396,6 +407,7 @@ body{
 	text-align: center;
 	margin-top: 3rem;
 	padding-bottom: 1rem;
+	color: aqua;
 }
 .distribucionesEx{
 	background-color: aliceblue;
@@ -427,12 +439,14 @@ body{
 	font-size: 1.5rem;
 	text-align: center;
 	padding: 2.5rem 0 .5rem 0;
+	color: aqua;
 }
 .productos h2{
 	width: 100%;
 	font-size: 1.2rem;
 	text-align: center;
 	padding: .5rem 0;
+	color: white;
 }
 .product-minimal{
 	margin-bottom: 30px;
@@ -526,12 +540,14 @@ body{
 	font-size: 1.5rem;
 	text-align: left;
 	padding-top: 2.5rem;
+	color: aqua;
 }
 .client .p{
 	width: 100%;
 	font-size: .9rem;
 	text-align: left;
 	padding-top: 1rem;
+	color: white;
 }
 .client .p2{
 	padding-bottom: 2.5rem;
@@ -561,12 +577,14 @@ footer{
 	font-size: 1.5rem;
 	padding-top: 3rem;
 	padding-bottom: 1rem;
+	color: aqua;
 }
 .horario .p{
 	width: 80%;
 	text-align: left;
 	font-size: .9rem;
 	padding: .3rem 0;
+	color: white;
 }
 .contacto{
 	width: 90%;
@@ -579,14 +597,16 @@ footer{
 	font-size: 1.5rem;
 	padding-top: 3rem;
 	padding-bottom: 1rem;
+	color: aqua;
 }
 .contacto ul{
 	width: 90%;
 	margin: auto;
 	text-align: left;
+	color: white;
 }
 .contacto a{
-	color: black;
+	color: white;
 	font-size: .9rem;
 	padding-left: .5rem;
 }
